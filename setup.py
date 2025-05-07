@@ -24,7 +24,7 @@ if sys.version_info < (3, 8):
 
 
 setup(name='django4-inline-actions',
-      version=2.0,
+      version=2.1,
       description='django4-inline-actions adds actions to each row of the ModelAdmin or InlineModelAdmin',
       long_description_content_type='text/markdown',
       long_description=long_description,
@@ -48,6 +48,7 @@ setup(name='django4-inline-actions',
           'Programming Language :: Python :: 3.10',
           'Programming Language :: Python :: 3.11',
           'Programming Language :: Python :: 3.12',
+          'Programming Language :: Python :: 3.13',
           'Environment :: Console',
           'Natural Language :: English',
           'Intended Audience :: Developers',
