@@ -7,7 +7,7 @@ repos:
         language: system
         entry: poetry run black
         types: [python]
-  
+
   - repo: local
     hooks:
       - id: autoflake
